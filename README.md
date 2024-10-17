@@ -1,13 +1,13 @@
-## YukiQR Bot
+# YukiQR Bot
 YukiQR é um bot do Discord que transforma qualquer mensagem em um QR code! Basta marcar o bot em uma mensagem ou mencionar o bot com a mensagem que deseja converter, e ele cuidará do resto.
 
-# Funcionalidades
+## Funcionalidades
 
 - Criação de QR Code a partir de mensagens: Transforme qualquer mensagem do Discord em um QR code simplesmente mencionando o YukiQR.
 
 - Suporte para mensagens referenciadas: Responda a uma mensagem existente mencionando o YukiQR para convertê-la em um QR code.
 
-# Como Usar
+## Como Usar
 - Modo 1: Converter Mensagem Direta
 Mencione o bot e escreva a mensagem que deseja converter em QR code: 
 "@YukiQR Transforme isso em um QR code"
@@ -35,15 +35,15 @@ Instale as dependências:
 
 pip install -r requirements.txt
 
-# Configure o token do bot:
+## Configure o token do bot:
 Crie um arquivo .env na raiz do projeto e adicione seu token do bot do Discord
 DISCORD_TOKEN=seu_token_do_discord
 
-# Execute o bot:
+## Execute o bot:
 
 python yuki_bot.py
 
-# Dependências
+## Dependências
 - discord.py
 - qrcode
 - python-dotenv
